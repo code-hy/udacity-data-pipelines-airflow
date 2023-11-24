@@ -19,7 +19,7 @@ default_args = {
     'start_date': pendulum.now(),
     'depends_on_past':False,
     'start_date': datetime(2023, 1, 1), 
-    'retries': 0,
+    'retries': 3,
     'retry_delay': timedelta(minutes=5),
     'email_on_retry': False,
     'catchup': False,
